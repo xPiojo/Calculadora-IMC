@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px blue;
+    background-color: #2f2f2f2f;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: chocolate;
+    font-style: italic;
+}
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: brown;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid;
+    padding: .5rem;
+    margin-right: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: blueviolet;
+    border-radius: 10px;
+}
+
+input:focus {
+    background-color: #2f2f2f2f;
+}
+
+#btnCalcular {
+    padding: 1rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: blue;
+    background-color: blue;
+    border: none;
+}
+
+#btnCalcular:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 2px blue;
+
+}
+
+
+img {
+    width: 50%;
+    align-self: center;
+}
